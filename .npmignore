@@ -1,0 +1,11 @@
+src/
+tests/
+.husky/
+.eslintrc.cjs
+.prettierrc
+tsconfig.json
+tsup.config.ts
+vitest.config.ts
+*.tsbuildinfo
+node_modules/
+coverage/
