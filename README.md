@@ -36,7 +36,6 @@ function UserProfile({ userId }: { userId: number }) {
   const { data, isLoading, status, request, setData } = useRequest<User, Error, number>({
     queryFn: async (signal, id) => {
       const res = await fetch(`/api/users/${id}`, { signal });
-      if (!res.ok) throw new Error('Failed to fetch user');
       return res.json() as Promise<User>;
     },
     onError: (err) => console.error('Request failed:', err.message),
@@ -48,7 +47,7 @@ function UserProfile({ userId }: { userId: number }) {
         {isLoading ? 'Loading…' : 'Fetch User'}
       </button>
 
-      {status === RequestStatus.Success && data && <p>{data.name}</p>}
+      {data && <p>{data.name}</p>}
       {status === RequestStatus.Error && <p>Something went wrong.</p>}
     </div>
   );
