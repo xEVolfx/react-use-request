@@ -1,6 +1,6 @@
 {
-  "name": "@evolf/react-use-request",
-  "version": "0.1.0",
+  "name": "@xevolfx/react-use-request",
+  "version": "0.1.1",
   "description": "Lightweight React hooks for async request management with abort, loading, and status state",
   "keywords": [
     "react",
@@ -12,6 +12,14 @@
   ],
   "license": "MIT",
   "author": "xEVolfx",
+  "homepage": "https://github.com/xEVolfx/react-use-request#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xEVolfx/react-use-request.git"
+  },
+  "bugs": {
+    "url": "https://github.com/xEVolfx/react-use-request/issues"
+  },
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
