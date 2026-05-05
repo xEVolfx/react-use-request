@@ -1,5 +1,5 @@
 {
-  "name": "react-use-request",
+  "name": "@evolf/react-use-request",
   "version": "0.1.0",
   "description": "Lightweight React hooks for async request management with abort, loading, and status state",
   "keywords": [
@@ -11,7 +11,7 @@
     "typescript"
   ],
   "license": "MIT",
-  "author": "xEgorVolfx",
+  "author": "xEVolfx",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
