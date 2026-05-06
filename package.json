@@ -1,14 +1,17 @@
 {
   "name": "@xevolfx/react-use-request",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Lightweight React hooks for async request management with abort, loading, and status state",
   "keywords": [
     "react",
-    "hooks",
+    "hook",
     "request",
-    "async",
-    "abort",
-    "typescript"
+    "fetch",
+    "use",
+    "network",
+    "react-hook",
+    "query",
+    "REST"
   ],
   "license": "MIT",
   "author": "xEVolfx",
